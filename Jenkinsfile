@@ -1,7 +1,7 @@
 node{
   def appname = "redpill"
 stage 'Checkout'
-  git url: 'https://www.github.com/h-a-t/RedPill'
+  git url: 'https://github.com/ngocng-dev/RedPill'
 
 stage 'Pull img'
   sh 'make pull'
